@@ -1,0 +1,60 @@
+
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div
+{ background-color: rgb(233, 236, 236); width: 500px; }
+h1
+{ width:300px; background-color:aqua; height: 100px; border: 1px solid black; }
+.para1{ width: 300px; background-color: rgb(206, 202, 202); padding: 60px; border: 5px solid #FFF; }
+a /* Liens par défaut (non survolés) */
+{ text-decoration: none; color: rgb(236, 12, 12); font-style: italic;
+}
+a:hover /* Apparence au survol des liens */
+{ text-decoration: underline;
+color: rgb(179, 22, 22);
+}
+a:visited /* Quand le visiteur a déjà vu la page concernée*/
+{
+color: #e70a0a; /* pour colorer le lien visité en gris*/
+}
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+background-color: #FFCC66;} 
+
+img {
+    height: 500;
+    width: 150px;
+}
+p1{
+    color: rgb(241, 13, 13);
+}
+
+h1{
+    color: black
+}
+section.top-page{
+    background-size: cover;
+    background: url('/watermark_preview_image20251028-1-1p7gp6i.png');
+    height: 80vh;
+    padding: 25px;
+}
+
+header.header{
+width: 150px;
+}
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-left: 150px;
+    background-color: #f6f9fd;
+}
+p2{
+    color: #6675ff;
+}
+p3{
+    color: rgb(7, 0, 1);
+}
